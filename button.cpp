@@ -18,8 +18,8 @@ QRectF button::boundingRect() const
 }
 //------------------------------------------------------------------------------
 void button::paint(QPainter *painter,
-                   const QStyleOptionGraphicsItem */*option*/,
-                   QWidget */*widget*/)
+                   const QStyleOptionGraphicsItem *,
+                   QWidget *)
 {
   if(mHover)
     painter->setPen(QColor(255, 0, 0));
